@@ -5,6 +5,12 @@ html, body {
 	left: 0;
 }
 
+#logo {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+}
+
 #top {
 	position: absolute;
 	top: 0;
@@ -12,7 +18,7 @@ html, body {
 	left: 0;
 	width: 100%;
 	background: #000080;
-	border-bottom: 5px solid #800000;
+	border-bottom: 5px solid #990000;
 }
 
 #middle {
@@ -29,5 +35,6 @@ html, body {
 	height: 20%;
 	left: 0;
 	width: 100%;
+	border-top: 5px solid #990000;
 	background-image: url("../img/howardhack1-focal.jpg");
 }
