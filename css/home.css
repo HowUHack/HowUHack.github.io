@@ -8,23 +8,23 @@ html, body {
 #top {
 	position: absolute;
 	top: 0;
-	height: 10%;
+	height: 20%;
 	left: 0;
 	width: 100%;
 }
 
 #middle {
 	position: absolute;
-	top: 10%;
-	height: 80%;
+	top: 20%;
+	height: 60%;
 	left: 0;
 	width: 100%;
 }
 
 #bottom {
 	position: absolute;
-	top: 90%;
-	height: 10%;
+	top: 80%;
+	height: 20%;
 	left: 0;
 	width: 100%;
 	background-image: url("../img/howardhack1-focal.jpg");
