@@ -9,8 +9,8 @@ html, body {
 	position: absolute;
 	top: 5%;
 	left: 5%;
-	width: 10%;
-	height: 10%;
+	max-height: 10%;
+	max-width: 10%;
 }
 
 #top {
