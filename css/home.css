@@ -7,8 +7,8 @@ html, body {
 
 #logo {
 	position: absolute;
-	top: 15%;
-	left: 15%;
+	top: 11%;
+	left: 12%;
 	max-height: 20%;
 	max-width: 20%;
 }
@@ -31,6 +31,7 @@ html, body {
 	height: 60%;
 	left: 0;
 	width: 20%;
+	background: #000044;
 	z-index: -2;
 }
 
@@ -50,6 +51,9 @@ html, body {
 	height: 60%;
 	left: 80%;
 	width: 20%;
+	background-image: url(../img/howardhack2-bwc.jpg);
+	background-position: center;
+	background-size: contain;
 	z-index: -2;
 }
 
