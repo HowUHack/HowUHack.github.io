@@ -61,7 +61,7 @@ html, body {
 	width: 100%;
 	border-top: 5px solid #990000;
 	background-image: url("../img/howardhack1-focal.jpg");
-	background-repeat: repeat-x;
+	background-repeat: repeat-x repeat-y;
 	background-position: right top;
 	z-index: -1;
 }
