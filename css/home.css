@@ -11,6 +11,8 @@ html, body {
 	height: 20%;
 	left: 0;
 	width: 100%;
+	background: #000080;
+	border-bottom: 5px solid #800000;
 }
 
 #middle {
