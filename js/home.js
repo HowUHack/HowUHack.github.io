@@ -3,7 +3,7 @@
 $(document).ready(function () {
 	'use strict';
 	$(':button').on('click', function () {
-		var link = $(this).attr("id") + '/index.html';
+		var link = $(this).attr("id") + '/';
 		console.log(link);
 		window.location.href = link;
 	});
