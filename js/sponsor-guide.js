@@ -29,23 +29,34 @@ function getText(inner) {
 				"excitement in the eyes of the winning team members as you " +
 				"present them with an award for all of the hard work they put in?";
 	case 'Key Note':
-		return;
+		return "Say something during our key note!";
 	case 'Distribute Swag':
-		return;
+		return "Bring some goodies to give out to all the hackers! They'll " +
+				"love you forever, and think of you every time they see it!";
 	case 'Resumes':
-		return;
+		return "Get access to our database of resumes for both the people who" +
+				" attend, and even those who don't!";
 	case 'Recruiters':
-		return;
+		return "Since you'll be getting resumes for all who attend long " +
+				"before the event, why not use this to your advantage, and " +
+				"conduct some onsite interviews? Quiet spaces will be available!";
 	case 'Logos':
-		return;
+		return "Your name...EVERYWHERE! On the shirts! The banners! " +
+				"The website! All over the place!";
 	case 'Branded Prize':
-		return;
+		return "Do you want to bring your own prize to give away at the end? " +
+				"Insentivize the participants to integrate your products into" +
+				" their projects! Or even reward them for the best hack that " +
+				"aligns with your company's values!";
 	case 'Swag Bags':
-		return;
+		return "Swag of your choosing will be placed in the giveaway bags " +
+				"everyone will receive at registration!";
 	case 'API Directory':
-		return;
+		return "Have all of your hackable APIs put in one easily accessible " +
+				"place!";
 	case 'Program Mention':
-		return;
+		return "Personalized shout out to you and your team in the event " +
+				"programs!";
 	default:
 		return null;
 	}
