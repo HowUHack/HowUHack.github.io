@@ -130,6 +130,11 @@ td {
 	background: #EEB4B4;
 }
 
+#tier-info {
+	position: relative;
+	top: -15%;
+}
+
 #tier-info div {
 	padding-left: 10%;
 }

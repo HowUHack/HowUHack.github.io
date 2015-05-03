@@ -20,11 +20,25 @@ html, body {
 	left: 10%;
 	width: 80%;
 	height: 100%;
-	overflow-y: scroll;
 }
 
 #main {
 	z-index: 999;
+	text-align: center;
+}
+
+#main h2 {
+	padding-top: 7%;
+	color: aliceblue;
+}
+
+#main h3 {
+	color: aliceblue;
+	padding-bottom: 3%;
+}
+
+textarea {
+	resize: none;
 }
 
 #main-back {
