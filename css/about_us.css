@@ -34,30 +34,40 @@ html, body {
 	z-index: 998;
 }
 
-.question {
+.question-block {
 	position: absolute;
 	font-family: lobster;
 	color: aliceblue;
 	font-size: 300%;
-	left: 15%;
+	left: 0;
+	height: 20%;
+	width: 100%;
+	border: 1px solid grey;
+	text-align: center;
+}
+
+.question-word {
+	position: absolute;
+	top: 30%;
+	left: 40%;
 }
 
 #who {
-	top: 5%;
+	top: 0%;
 }
 
 #what {
-	top: 25%;
+	top: 20%;
 }
 
 #when {
-	top: 45%;
+	top: 40%;
 }
 
 #where {
-	top: 65%;
+	top: 60%;
 }
 
 #why {
-	top: 85%;
+	top: 80%;
 }

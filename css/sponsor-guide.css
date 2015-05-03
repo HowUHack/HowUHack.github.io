@@ -1,0 +1,145 @@
+html, body {
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow-y: auto;
+}
+
+#logo {
+	position: relative;
+	top: 1%;
+	left: 5%;
+	width: 90%;
+}
+
+#header {
+	position: relative;
+	top: 20%;
+	left: 17%;
+	font-size: 50px;
+	color: aliceblue;
+}
+
+#top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 15%;
+	background: #000080;
+	border-bottom: 5px solid #990000;
+}
+
+#side-bar {
+	position: fixed;
+	top:0;
+	left: 0;
+	width: 12%;
+	height: 100%;
+	background: #000080;
+	border-right: 5px solid #990000;
+}
+
+.perks {
+	top: 0;
+	padding-top: 10%;
+	padding-left: 20%;
+	width: 70%;
+}
+
+#tiers {
+	padding-top: 1%;
+	width: 100%;
+}
+
+table {
+	border: 1px solid #0f0f0f;
+	table-layout: fixed;
+	width: 70%;
+}
+
+td {
+	height: 10%;
+	height: 20px;
+	text-align: center;
+}
+
+.section td {
+	background-color: #00688B;
+}
+
+#not-name {
+	background: #00688B;
+	color: aliceblue;
+}
+
+#names td {
+	border: 1px solid #BFEFFF;
+	background: #7EC0EE;
+	height: 20%;
+	font-size: 20px;
+}
+
+#names td {
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	font-size: 40px;
+}
+
+.side-col {
+	background: #F0F8FF;
+}
+
+#names #epsilon {
+	background: #7F89E6;
+}
+
+#names #delta {
+	background: #B6D378;
+}
+
+#names #gamma {
+	background: #FFFF8F;
+}
+
+#names #beta {
+	background: #FFC05C;
+}
+
+#names #alpha {
+	background: #D75050;
+}
+
+#epsilon {
+	background: #E6E8FA;
+}
+
+#delta {
+	background: #E8F1D4;
+}
+
+#gamma {
+	background: #FFFFCC;
+}
+
+#beta {
+	background: #FFE4B5;
+}
+
+#alpha {
+	background: #EEB4B4;
+}
+
+#tier-info div {
+	padding-left: 10%;
+}
+
+#perk-name {
+	color: firebrick;
+}
+
+#perk-text {
+	color: darkslategray;
+	padding-bottom: 15px;
+	border-bottom: 2px solid grey;
+}
