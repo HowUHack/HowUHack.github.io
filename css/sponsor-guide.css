@@ -2,20 +2,20 @@ html, body {
 	top: 0;
 	left: 0;
 	width: 100%;
-	overflow-y: scroll;
+	overflow-y: auto;
 	overflow-x: hidden;
 	margin-bottom: 0;
 }
 
 #logo {
-	position: relative;
+	position: absolute;
 	top: 1%;
 	left: 5%;
 	width: 90%;
 }
 
 #header {
-	position: relative;
+	position: absolute;
 	top: 20%;
 	left: 17%;
 	font-size: 50px;
