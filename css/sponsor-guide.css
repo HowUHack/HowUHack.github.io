@@ -42,6 +42,7 @@ html, body {
 	height: 100%;
 	background: #000080;
 	border-right: 5px solid #990000;
+	padding-bottom: 30%;
 }
 
 .perks {
