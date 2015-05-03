@@ -9,7 +9,7 @@ function getText(inner) {
 		return "Bring your own hardware if you have something you'd want to " +
 				"see people hacking on!";
 	case 'Send Mentors':
-		return "Send your employees straight there for a chance to mentor " +
+		return "Send your employees straight to us for a chance to mentor " +
 				"students interested in what you have to offer!";
 	case 'Sponsor Table':
 		return "We'll give you a table to sit at and interract with students" +
@@ -18,9 +18,9 @@ function getText(inner) {
 		return "This is your time to let your presence be known during our " +
 				"opening ceremony!";
 	case 'Side Event':
-		return "Want to set up a panel during the event? Host a round or " +
+		return "Want to set up a panel during the event? How about hosting a round or " +
 				"four of your favorite game to take a break from a long " +
-				"night of hacking? Well here's your chance!";
+				"night of hacking? This is your chance!";
 	case 'Lounge':
 		return "Want a nice, quiet place to sit back and relax? Or even just " +
 				"chill with your fellow mentors? We've got just the place for you!";
