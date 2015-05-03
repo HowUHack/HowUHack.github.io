@@ -2,9 +2,9 @@
 
 var SPONSOR_PERKS = [];
 
-function getText(inner) {
+function getText(innerText) {
 	'use strict';
-	switch (inner) {
+	switch (innerText) {
 	case 'Hardware':
 		return "Bring your own hardware if you have something you'd want to " +
 				"see people hacking on!";
@@ -62,26 +62,57 @@ function getText(inner) {
 	}
 }
 
+function makeID(innerText) {
+	'use strict';
+	var i, newID = '';
+	for (i = 0; i < innerText.length; i += 1) {
+		if (innerText[i] === ' ') {
+			newID += '-';
+		} else {
+			newID += innerText[i];
+		}
+	}
+	return newID;
+}
+
+function makeExplantion(id, title, text) {
+	'use strict';
+	return "<div class='exp' id='" + id + "'>"
+		+ "<h3 id='perk-name'>" + title + "</h3>"
+		+ "<p id='perk-text'>" + "&nbsp;&nbsp;&nbsp;&nbsp;" + text + "</p>"
+		+ "</div>";
+}
+
+function addScrollButt(that) {
+	'use strict';
+	var scrollButt = "<div id='scroll-butt'> + </div>";
+	that.append(scrollButt);
+}
+
 $(document).ready(function () {
 	'use strict';
-	var id, text, i,
+	var id, title, text, i,
 		side_cols = $('.side-col'),
-		new_div;
+		explanation;
 	
 	for (i in side_cols) {
 		if (side_cols.hasOwnProperty(i)) {
-			id = ($('.side-col')[i]).innerHTML;
-			text = getText(id);
+			title = ($('.side-col')[i]).innerHTML;
+			text = getText(title);
 			
 			if (text !== null) {
-				$(this).attr('title', text);
-				console.log(id);
-				new_div = "<div id='" + id.trim() + "'>" +
-					"<h3 id='perk-name'>" + id + "</h3><p id='perk-text'>" +
-					"&nbsp;&nbsp;&nbsp;&nbsp;" + text + "</p></div>";
-				$('#tier-info').append(new_div);
-				console.log($('#tier-info'));
+				id = makeID(title);
+				$(this).attr('id', id);
+				
+				explanation = makeExplantion(id, title, text);
+				$('#tier-info').append(explanation);
 			}
 		}
 	}
+	
+	$('.side-col').click(function () {
+		var id = makeID($(this).context.innerHTML),
+			$target = $('.exp #' + id);
+		console.log($target.position());
+	});
 });
